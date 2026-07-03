@@ -3,49 +3,123 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Allied Electric Heating and Air Conditioning - Virtual Assistant</title>
+<title>Allied Electric, Heating & Air Conditioning - Virtual Assistant</title>
+<link rel="icon" href="https://callalliedelectric.com/wp-content/uploads/2023/10/cropped-Allied-Favicon-32x32.png" sizes="32x32" />
 <style>
+  * {
+    box-sizing: border-box;
+  }
   body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f5;
+    color: #2b2f2d;
   }
+
+  /* Header */
+  .site-header {
+    background-color: #115389;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .site-header img {
+    height: 50px;
+    width: auto;
+  }
+  .site-header h1 {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  /* Main content */
   .container {
-    width: 90%;
-    max-width: 800px;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
     text-align: center;
   }
-  h1 {
-    color: #333;
+  .container h2 {
+    color: #115389;
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .container p.subtitle {
+    color: #4a4f4d;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+
+  /* Avatar frame */
+  .avatar-wrapper {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    border-top: 4px solid #86A080;
   }
   iframe {
     width: 100%;
+    aspect-ratio: 16/9;
     border: none;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  /* Footer */
+  .site-footer {
+    text-align: center;
+    padding: 24px;
+    color: #6b706e;
+    font-size: 13px;
+    margin-top: 40px;
+    border-top: 1px solid #e0e0e0;
+  }
+  .site-footer a {
+    color: #115389;
+    text-decoration: none;
+  }
+  .call-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #86A080;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
   }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>Allied Electric Heating and Air Conditioning</h1>
-  <p>Chat with our virtual assistant below!</p>
-  <iframe src="https://embed.liveavatar.com/v1/7e46dd5f-849e-4472-ab52-745f85775166?orientation=horizontal" allow="microphone" title="LiveAvatar Embed" style="aspect-ratio: 16/9;"></iframe>
+
+<div class="site-header">
+  <img src="https://callalliedelectric.com/wp-content/uploads/2024/10/Allied-Electric-Thumbnail.jpg" alt="Allied Electric Logo">
+  <h1>Allied Electric, Heating &amp; Air Conditioning</h1>
 </div>
+
+<div class="container">
+  <h2>Talk to Our Virtual Assistant</h2>
+  <p class="subtitle">Ask about electrical repairs, AC service, HVAC installs, or schedule an appointment — available in multiple languages.</p>
+
+  <div class="avatar-wrapper">
+    <iframe src="https://embed.liveavatar.com/v1/7e46dd5f-849e-4472-ab52-745f85775166?orientation=horizontal" allow="microphone" title="LiveAvatar Embed"></iframe>
+  </div>
+
+  <a href="tel:+19282324028" class="call-btn">📞 Call (928) 232-4028</a>
+</div>
+
+<div class="site-footer">
+  Allied Electric, Heating &amp; Air Conditioning &middot; Prescott, AZ &middot; ROC #326127 &amp; #358836<br>
+  <a href="https://callalliedelectric.com">callalliedelectric.com</a>
+</div>
+
 </body>
 </html>
-Here's what to do with it in GitHub:
-
-On your repository page, click Add file → Create new file.
-Name the file exactly: index.html (this name matters — GitHub Pages looks for it as the homepage).
-Paste the code above into the editor box.
-Scroll down and click Commit changes (this saves the file).
-Then go to your repo's Settings tab → Pages (in the left sidebar) → under "Branch," select main and save.
-GitHub will give you a live URL, usually something like https://[yourusername].github.io/[repo-name]/ — it can take a minute or two to go live.
-
-Want to go ahead and switch to text now so we can do this step by step with you pasting things in as we go?
